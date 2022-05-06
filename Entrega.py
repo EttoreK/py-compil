@@ -6,4 +6,4 @@ def simular_dfa(dfa, entrada):
         c = entrada.pop(0)
 
         if c != dfa(['sigma']):
-            
+            print("ERRO! ERRO! ERRO!\nO símbolo ", c, "não pertence ao alfabeto do autômato!")
